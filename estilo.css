@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Indie Flower", cursive;
+}
+
+header,
+footer,
+.flower-card {
+  background: linear-gradient(90deg, #ffdde1, #e692a0);
+}
+
+header {
+  width: 20hv;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flower-card {
+  width: 28%;
+  height: 70vh;
+  margin: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  h2 {
+    font-size: 2rem;
+    color: #e91e63;
+  }
+
+  img {
+    width: 70%;
+    height: 40vh;
+    border-radius: 8px;
+  }
+
+  p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+.curiosidades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+  justify-content: space-evenly;
+
+  h2 {
+    color: #e91e63;
+    font-size: 2rem;
+  }
+
+  lu {
+    list-style: none;
+  }
+
+  il {
+    font-size: 1.5rem;
+  }
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+}
